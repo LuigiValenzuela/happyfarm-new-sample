@@ -1,15 +1,15 @@
-public class Bird extends Animal {
+public abstract  class Bird extends Animal implements Flyable{
 
 
-    public void SayName() {
+    public void sayName() {
         System.out.println("Cotorro");
     }
 
-    public void MakeSound() {
+    public void makeSound() {
         System.out.println("Sing");
     }
 
-    public void Muve() {
+    public void muve() {
         System.out.println("Fly");
     }
 

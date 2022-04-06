@@ -1,14 +1,14 @@
-public class Dog extends Animal{
+public abstract class Dog extends Animal implements Barkable{
 
-    public void SayName() {
+    public void sayName() {
         System.out.println("Somer");
     }
 
-    public void MakeSound() {
+    public void makeSound() {
         System.out.println("wooof");
     }
 
-    public void Muve() {
+    public void move() {
         System.out.println("Run");
     }
 

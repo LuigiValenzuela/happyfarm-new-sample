@@ -1,9 +1,9 @@
 public abstract class Animal {
 
 
-    public abstract void MakeSound();
-    public abstract void SayName();
-    public abstract void Muve();
+    public abstract void makeSound();
+    public abstract void sayName();
+    public abstract void move();
 
 
 }

@@ -1,4 +1,4 @@
-public interface Bakable {
+public interface Barkable {
 
-    public void bake();
+    public void barker();
 }
