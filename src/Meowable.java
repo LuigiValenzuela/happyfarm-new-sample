@@ -1,6 +1,6 @@
 public interface Meowable {
 
-    public void meaw();
+     void meow();
 
 
 }

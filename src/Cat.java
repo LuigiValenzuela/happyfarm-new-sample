@@ -1,17 +1,17 @@
-public abstract  class Cat extends Animal implements Meowable {
+public class Cat extends Animal implements Meowable {
 
+    public void sayName() {
+        System.out.println("Pinkerton");
+    }
 
+    public void makeSound() {
+        meow();
+    }
 
-    public abstract void sayName();{
-        System.out.println("Pinkerton");}
+    public void move(){
+        System.out.println("jump");
 
-    public abstract void makeSound();{
-        System.out.println("meow");}
-
-    public abstract void move();{
-        System.out.println("jump");}
-
-
+    }
 
     public void meow() {
 
